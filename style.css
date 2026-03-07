@@ -211,6 +211,18 @@ ul {
     transform: translateY(-3px);
 }
 
+.btn-resume {
+    background: var(--white);
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.btn-resume:hover {
+    background: var(--primary-color);
+    color: var(--white);
+    transform: translateY(-3px);
+}
+
 .social-links {
     display: flex;
     gap: 15px;
